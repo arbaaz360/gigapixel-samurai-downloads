@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gigapixel Samurai downloads</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2d; --line:#2a3858; --text:#f4f7ff; --muted:#aab6d1; --accent:#8b7cff; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:32px 16px; background:radial-gradient(circle at top, #1d2850 0, var(--bg) 55%); color:var(--text); font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; }
+    main { width:min(720px,100%); background:rgba(18,26,45,.94); border:1px solid var(--line); border-radius:24px; padding:clamp(24px,5vw,48px); box-shadow:0 24px 80px rgba(0,0,0,.35); }
+    h1 { margin:0 0 10px; font-size:clamp(28px,5vw,42px); letter-spacing:-.03em; }
+    .intro { margin:0 0 28px; color:var(--muted); }
+    .card { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:20px; margin:14px 0; border:1px solid var(--line); border-radius:16px; background:#0f172a; }
+    .card h2 { margin:0 0 4px; font-size:18px; }
+    .card p { margin:0; color:var(--muted); font-size:14px; }
+    a.button { display:inline-block; flex:0 0 auto; padding:11px 16px; border-radius:10px; background:var(--accent); color:white; text-decoration:none; font-weight:700; white-space:nowrap; }
+    a.button:hover { filter:brightness(1.12); }
+    .note { margin:28px 0 0; color:var(--muted); font-size:14px; }
+    footer { margin-top:24px; color:#7f8baa; font-size:13px; }
+    @media (max-width:560px) { .card { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Gigapixel Samurai</h1>
+    <p class="intro">Small integrations for sending images to the Gigapixel Samurai cloud queue.</p>
+    <section class="card">
+      <div>
+        <h2>Browser right-click extension</h2>
+        <p>Chrome, Brave, or Edge. Works with images behind a browser login on your Mac.</p>
+      </div>
+      <a class="button" href="GigapixelSamurai-browser-extension.zip" download>Download ZIP</a>
+    </section>
+    <section class="card">
+      <div>
+        <h2>macOS Finder Quick Action</h2>
+        <p>Right-click one or more local image files and send them to the queue.</p>
+      </div>
+      <a class="button" href="GigapixelSamurai-mac-quick-action.zip" download>Download ZIP</a>
+    </section>
+    <p class="note">The packages contain setup instructions. They do not contain your Gigapixel Samurai password.</p>
+    <footer>Gigapixel Samurai integrations</footer>
+  </main>
+</body>
+</html>
